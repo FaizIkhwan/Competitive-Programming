@@ -1,5 +1,5 @@
 #Max iterations between two numbers (num1,num2)
-
+# UNFINISH
 def counting(num):
     count = 0;
     while True:

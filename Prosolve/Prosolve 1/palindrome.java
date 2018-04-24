@@ -1,5 +1,12 @@
+/*
+    87 + 78 = 165
+    165 + 561 = 726
+    726 + 627 = 1353
+    1353 + 3531 = 4884, a palindrome
+    output : 4884;Palindrome;5
+*/
+
 import java.util.Scanner;
-// BELUM SIAP
 public class palindrome {
 
     static Scanner input = new Scanner(System.in);
@@ -9,24 +16,20 @@ public class palindrome {
         for (int i = 0; i < t; i++) 
         {
             String str1 = input.next();                     
-            String afterStr1 = "";
-            String pOrNot = "None";
-            int count = 0;
-            boolean check = false;
+            String afterStr1 = "";           
             boolean ifDone = false;
-            for(int j=0; j<10; j++)
-            {                                
+            int count = 1;
+            for(int j=0; j<9;j++)
+            {        
+                count++;
                 afterStr1 = reverseAndAdd(str1);
                 ifDone = checkIfPalindrome(afterStr1);
-                if(ifDone == true)
-                    check = true;
+                if(ifDone == true)                
+                    break;                                    
                 else
-                    str1 = reverseAndAdd(afterStr1);
-                count++;
-                if(check == true)                                   
-                    break;                
+                    str1 = afterStr1;                                                                                   
             }                        
-            if(check)                
+            if(ifDone)                
                 System.out.println(afterStr1+";"+"Palindrome"+";"+count);
             else
                 System.out.println(afterStr1+";"+"None");
@@ -40,10 +43,9 @@ public class palindrome {
         int num1 = Integer.parseInt(str1);
         int num2 = Integer.parseInt(str2);
         int total = num1 + num2;
-        String totalInString = String.valueOf(total);
-        return totalInString;
-    }
-    
+        return ""+total;
+    }    
+            
     static public boolean checkIfPalindrome(String str1)
     {
         String str2 = new StringBuffer(str1).reverse().toString();

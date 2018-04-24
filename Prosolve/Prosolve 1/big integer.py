@@ -1,3 +1,4 @@
+# int = int + int
 t = int(input())
 for i in range(t):
     num1 = int(input())

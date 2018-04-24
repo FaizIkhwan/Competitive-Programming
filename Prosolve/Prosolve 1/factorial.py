@@ -1,3 +1,5 @@
+3! = 3 * 2 * 1
+
 t = int(input())
 for i in range(t):
     num = int(input())
