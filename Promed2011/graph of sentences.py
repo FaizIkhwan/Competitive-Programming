@@ -1,3 +1,4 @@
+#Display star per character
 t = int(input())
 for i in range(t):
     inp = input().split()
