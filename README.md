@@ -1,2 +1,2 @@
 # Competitive-Programming
-My competitive programming source code.
+My progress in competitive programming. 
