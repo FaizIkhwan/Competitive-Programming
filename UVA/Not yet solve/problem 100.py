@@ -23,8 +23,9 @@ def counting(num1,num2):
 
 
 while True:
-    num1,num2 = input().split()
-    if num1 == ''and num2 == '':
+    try:
+        num1,num2 = input().split()
+    except EOFError:
         break
     else:
         print('{} {} {}'.format(num1, num2, counting(int(num1),int(num2))))
