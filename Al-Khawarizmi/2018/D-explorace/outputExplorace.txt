@@ -1,0 +1,7 @@
+Case #1: 189 meters
+Case #2: 354 meters
+Case #3: 70 meters
+Case #4: 65 meters
+Case #5: 395 meters
+Case #6: 390 meters
+Case #7: 614 meters
