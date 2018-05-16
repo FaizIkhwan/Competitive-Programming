@@ -1,3 +1,4 @@
+// not my code
 import java.util.Scanner;
 import java.text.DecimalFormat;
 

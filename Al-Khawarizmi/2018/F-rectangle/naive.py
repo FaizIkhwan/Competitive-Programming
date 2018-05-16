@@ -1,3 +1,4 @@
+# not my code
 # naive solution to verify samples
 T = int(input())
 for t in range(0, T):

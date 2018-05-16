@@ -1,3 +1,4 @@
+# not my code
 # intended solution for this problem.
 T = int(input())
 for t in range(0, T):
