@@ -5,7 +5,7 @@
  *
  *  AlKhawarzmi Problem Connectivity Potential
  */
-
+// not my code
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
