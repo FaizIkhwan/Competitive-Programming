@@ -1,3 +1,4 @@
+//not my code
 import java.util.Scanner;
 public class FinancialTsunami {
   public static void main(String[] args) {

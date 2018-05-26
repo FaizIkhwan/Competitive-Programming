@@ -4,6 +4,7 @@
 	Algorithm:	stack
 	Complexity:	linear
 */
+// not my code
 
 #include <stdio.h>
 
