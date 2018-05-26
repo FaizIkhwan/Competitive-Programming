@@ -1,3 +1,5 @@
+import time
+
 #complete search
 def coin(v, coins):
     #base case
@@ -11,4 +13,7 @@ def coin(v, coins):
             min_coin = min(min_coin, coin(v-c, coins)+1)
     return min_coin
 
+start = time.time()
 print(coin(7, [5,3,4,1]))
+end = time.time()
+print(start-end)

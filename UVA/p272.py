@@ -1,6 +1,6 @@
-#unsolve
-while True:
-    tex = True
+# adhoc
+tex = True
+while True:    
     try:
         inp = list(input())
     except EOFError:
