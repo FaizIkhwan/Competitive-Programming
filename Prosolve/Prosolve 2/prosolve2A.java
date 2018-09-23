@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Easy, ad hoc math, 10 September 2018.
  * @author Faiz Ikhwan
  */
-public class prosolve2_A {
+public class prosolve2A {
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
